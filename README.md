@@ -110,8 +110,8 @@ The project code defines two main routes using the FastAPI framework:
 To ensure secure file sharing, the project generates a unique encryption key using `Fernet.generate_key()` from the `cryptography.fernet` library. This key is used to initialize the Fernet cipher suite, enabling encryption and decryption operations. The uploaded files are encrypted using the cipher suite, and the decrypted files are provided for download after decryption.
 
 ![image](https://github.com/raghadaati/encryption-at-rest/assets/67871034/5b94e004-7a6c-49fe-8bd9-482ee6e107d5)
-![image](https://github.com/raghadaati/encryption-at-rest/assets/67871034/438001ab-6f26-4bb3-9f59-0a60834593a4)
-![image](https://github.com/raghadaati/encryption-at-rest/assets/67871034/611aab88-b1d8-40bd-a155-76f5e8593794)
+![image](https://github.com/raghadaati/encryption-at-rest/assets/67871034/78d6a768-a982-4b1e-8f03-482c25b5a06e)
+![image](https://github.com/raghadaati/encryption-at-rest/assets/67871034/ff8e9c6d-a870-4a39-8616-10337cc50310)
 
 
 
